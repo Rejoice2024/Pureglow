@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Pureglow - Clean, science-backed skincare formulated for radiant, healthy skin. No toxins, no compromise. Just pure, glowing results.">
+  <title>Pureglow | Clean Skincare for Radiant Skin</title>
+
+  <!-- Open Graph / Social Sharing Thumbnail -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pureglow | Clean Skincare for Radiant Skin">
+  <meta property="og:description"
+    content="Clean, science-backed skincare formulated for radiant, healthy skin. No toxins, no compromise. Just pure, glowing results.">
+  <meta property="og:image" content="images/og-thumbnail.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Pureglow — Clean Skincare for Radiant Skin">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pureglow | Clean Skincare for Radiant Skin">
+  <meta name="twitter:description"
+    content="Clean, science-backed skincare formulated for radiant, healthy skin. No toxins, no compromise.">
+  <meta name="twitter:image" content="images/og-thumbnail.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='4' fill='%23C05470'/><line x1='12' y1='2' x2='12' y2='5' stroke='%23C05470' stroke-width='2' stroke-linecap='round'/><line x1='12' y1='19' x2='12' y2='22' stroke='%23C05470' stroke-width='2' stroke-linecap='round'/><line x1='2' y1='12' x2='5' y2='12' stroke='%23C05470' stroke-width='2' stroke-linecap='round'/><line x1='19' y1='12' x2='22' y2='12' stroke='%23C05470' stroke-width='2' stroke-linecap='round'/></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+
+  <!-- ===================== STICKY NAVIGATION ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="#" class="logo" aria-label="Pureglow Home">
+        <svg class="logo-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true">
+          <circle cx="12" cy="12" r="4" fill="currentColor" />
+          <path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M5.636 5.636l2.121 2.121M16.243 16.243l2.121 2.121M5.636 18.364l2.121-2.121M16.243 7.757l2.121-2.121"
+            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+        <span>Pureglow</span>
+      </a>
+
+      <!-- Nav Links -->
+      <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
+        <a href="#benefits">Benefits</a>
+        <a href="#products">Products</a>
+        <a href="#ingredients">Ingredients</a>
+        <a href="#routine">Our Story</a>
+      </nav>
+
+      <!-- Actions -->
+      <div class="nav-actions">
+        <a href="#shop" class="btn btn-nav" id="nav-shop-btn">Shop Now</a>
+        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links"
+          aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Backdrop Overlay -->
+  <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+
+  <main>
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-container">
+
+        <div class="hero-content">
+          <div class="badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 2l2.09 6.26L20 9.27l-5 4.87 1.18 6.88L12 17.77l-4.18 2.25L9 13.14 4 9.27l5.91-.01L12 2z"
+                fill="currentColor" />
+            </svg>
+            Dermatologist Tested &amp; Approved
+          </div>
+
+          <h1 id="hero-heading">Skin That <em>Glows</em> From Within.</h1>
+
+          <p class="hero-desc">
+            Pureglow harnesses the power of clinically proven botanicals and cutting-edge science to deliver visible
+            radiance — without a single harmful ingredient. Your skin. Perfected.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#shop" class="btn btn-primary" id="hero-shop-btn">Shop Now</a>
+            <a href="#benefits" class="btn btn-secondary" id="hero-learn-btn">See How It Works</a>
+          </div>
+
+          <div class="hero-stats" aria-label="Key statistics">
+            <div class="stat">
+              <span class="stat-number">97%</span>
+              <span class="stat-label">Reported visible glow in 7 days</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat">
+              <span class="stat-number">100K+</span>
+              <span class="stat-label">Happy customers worldwide</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat">
+              <span class="stat-number">Clean</span>
+              <span class="stat-label">Zero parabens, sulfates, or fillers</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper" aria-hidden="false">
+          <img src="images/hero-skincare.png"
+            alt="A flat lay of Pureglow skincare products — a serum, moisturiser, and facial oil — arranged elegantly on a soft pink marble surface"
+            class="hero-img" loading="eager" width="600" height="650">
+          <div class="hero-glow-blob" aria-hidden="true"></div>
+          <div class="hero-badge-float" aria-hidden="true">
+            <span>✦</span>
+            <p>Clean Beauty Award 2026</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BENEFITS / 3-CARD FEATURES ===================== -->
+    <section id="benefits" class="features-section" aria-labelledby="benefits-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="sub-title">Why Pureglow?</span>
+          <h2 id="benefits-heading">Science Meets Nature</h2>
+          <p class="section-desc">We believe your skin deserves the cleanest, most effective formulas — backed by
+            science, inspired by nature.</p>
+        </div>
+
+        <div class="features-grid">
+
+          <!-- Card 1: Clean Ingredients -->
+          <div class="feature-card" id="card-clean">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2"
+                  stroke-linejoin="round" />
+                <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <h3>1,600+ Toxins Excluded</h3>
+            <p>Our formulas are free from parabens, sulfates, synthetic fragrances, and over 1,600 potentially harmful
+              ingredients. Clean beauty, no compromise.</p>
+            <a href="#ingredients" class="card-link">View our ingredient list →</a>
+          </div>
+
+          <!-- Card 2: Clinically Proven -->
+          <div class="feature-card" id="card-clinically">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <h3>Clinically Proven Results</h3>
+            <p>Every Pureglow product undergoes rigorous third-party clinical trials. 97% of participants reported
+              measurably improved skin texture and glow within 7 days.</p>
+            <a href="#routine" class="card-link">Read the studies →</a>
+          </div>
+
+          <!-- Card 3: Cruelty Free -->
+          <div class="feature-card" id="card-cruelty">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <h3>Cruelty-Free &amp; Vegan</h3>
+            <p>100% vegan formulas. Never tested on animals — certified by Leaping Bunny. Because glowing skin shouldn't
+              cost the earth or its creatures anything.</p>
+            <a href="#shop" class="card-link">Shop with confidence →</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PRODUCTS SHOWCASE SECTION ===================== -->
+    <section id="products" class="products-section" aria-labelledby="products-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="sub-title">Our Collection</span>
+          <h2 id="products-heading">Meet Your New Skincare Ritual</h2>
+          <p class="section-desc">Every product is formulated with intentional, clean ingredients — designed to work
+            beautifully together or on their own.</p>
+        </div>
+
+        <div class="products-grid">
+
+          <!-- Product 1: Radiance Serum -->
+          <article class="product-card" id="product-radiance-serum">
+            <div class="product-image-wrap">
+              <img src="images/product-serum.png"
+                alt="Pureglow Radiance Serum — a sleek amber glass dropper bottle against a soft cream background"
+                loading="lazy" width="400" height="420">
+              <span class="product-tag">Bestseller</span>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Serum</span>
+              <h3 class="product-name">Radiance Vitamin C Serum</h3>
+              <p class="product-desc">A potent 15% stabilised Vitamin C formula that visibly brightens, firms, and
+                shields against environmental stressors. Wake up to luminous, even-toned skin.</p>
+              <div class="product-highlights">
+                <span class="highlight-tag">Vitamin C 15%</span>
+                <span class="highlight-tag">Ferulic Acid</span>
+                <span class="highlight-tag">Niacinamide</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 2: Hydra-Glow Moisturiser -->
+          <article class="product-card" id="product-moisturiser">
+            <div class="product-image-wrap">
+              <img src="images/product-moisturiser.png"
+                alt="Pureglow Hydra-Glow Moisturiser — a frosted white glass jar with a blush-coloured lid on a marble surface"
+                loading="lazy" width="400" height="420">
+              <span class="product-tag product-tag--new">New</span>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Moisturiser</span>
+              <h3 class="product-name">Hydra-Glow Barrier Cream</h3>
+              <p class="product-desc">A rich yet lightweight moisturiser that delivers 72-hour hydration and repairs
+                your skin barrier. Leaves a soft, luminous finish — never greasy.</p>
+              <div class="product-highlights">
+                <span class="highlight-tag">Hyaluronic Acid</span>
+                <span class="highlight-tag">Ceramides</span>
+                <span class="highlight-tag">Bakuchiol</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 3: Clarity Toner -->
+          <article class="product-card" id="product-toner">
+            <div class="product-image-wrap">
+              <img src="images/product-toner.png"
+                alt="Pureglow Clarity Toner — a minimalist clear bottle with a soft pink label on a clean white surface"
+                loading="lazy" width="400" height="420">
+            </div>
+            <div class="product-info">
+              <span class="product-category">Toner</span>
+              <h3 class="product-name">Clarity Pore-Refining Toner</h3>
+              <p class="product-desc">A gentle, alcohol-free toner powered by 10% Niacinamide to visibly minimise pores,
+                control shine, and refine skin texture — without stripping essential moisture.</p>
+              <div class="product-highlights">
+                <span class="highlight-tag">Niacinamide 10%</span>
+                <span class="highlight-tag">Zinc PCA</span>
+                <span class="highlight-tag">Aloe Vera</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 4: Overnight Renewal Mask -->
+          <article class="product-card" id="product-mask">
+            <div class="product-image-wrap">
+              <img src="images/product-mask.png"
+                alt="Pureglow Overnight Renewal Mask — a deep plum-coloured glass jar with a gold lid resting on silk fabric"
+                loading="lazy" width="400" height="420">
+              <span class="product-tag product-tag--award">✦ Award Winner</span>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Treatment Mask</span>
+              <h3 class="product-name">Overnight Renewal Sleeping Mask</h3>
+              <p class="product-desc">Wake up transformed. This luxurious overnight mask floods skin with botanical
+                actives while you sleep, visibly reducing fine lines and restoring a plump, dewy glow by morning.</p>
+              <div class="product-highlights">
+                <span class="highlight-tag">Bakuchiol</span>
+                <span class="highlight-tag">Rosehip Oil</span>
+                <span class="highlight-tag">Peptides</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== INGREDIENTS SECTION ===================== -->
+    <section id="ingredients" class="details-section" aria-labelledby="ingredients-heading">
+      <div class="container">
+        <div class="details-layout">
+
+          <div class="details-image">
+            <img src="images/ingredients-botanical.png"
+              alt="Close-up overhead view of botanical skincare ingredients — rose petals, vitamin C citrus slices, and green hyaluronic aloe leaves on a white surface"
+              loading="lazy" width="500" height="560">
+          </div>
+
+          <div class="details-content">
+            <span class="sub-title">Inside the Bottle</span>
+            <h2 id="ingredients-heading">Powered by Botanicals &amp; Biotechnology</h2>
+            <p>Every Pureglow formula starts with a hero ingredient sourced sustainably from certified organic farms,
+              then amplified with precision biotech science.</p>
+
+            <ul class="specs-list">
+              <li>
+                <strong>Hyaluronic Acid Complex:</strong> Triple-weight molecules penetrate all three skin layers for
+                72-hour deep hydration.
+              </li>
+              <li>
+                <strong>Vitamin C (15%):</strong> Stabilised ascorbic acid brightens dark spots, boosts collagen, and
+                defends against UV damage.
+              </li>
+              <li>
+                <strong>Niacinamide (10%):</strong> Visibly minimises pores, balances oil, and evens skintone in as
+                little as 4 weeks.
+              </li>
+              <li>
+                <strong>Bakuchiol (Plant Retinol):</strong> All the anti-ageing power of retinol, none of the
+                irritation. Suitable for sensitive skin.
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ROUTINE / PHILOSOPHY ===================== -->
+    <section id="routine" class="philosophy-section" aria-labelledby="routine-heading">
+      <div class="container">
+        <div class="philosophy-card">
+          <div class="philosophy-deco" aria-hidden="true">✦</div>
+          <div class="philosophy-text">
+            <h2 id="routine-heading">A Ritual, Not Just a Routine.</h2>
+            <p>"We started Pureglow because we believed skincare should feel like a celebration of your skin — not a
+              chore. Every drop is formulated with intention, so you can glow with confidence every single day."</p>
+            <span class="author">— Rejoice Akosua, Founder of Pureglow</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SHOP / PURCHASE CTA ===================== -->
+    <section id="shop" class="purchase-section" aria-labelledby="shop-heading">
+      <div class="container">
+        <div class="purchase-card">
+
+          <div class="purchase-badge-top">🌿 Free Worldwide Shipping · 30-Day Glow Guarantee</div>
+
+          <div class="purchase-info">
+            <h2 id="shop-heading">Start Your Glow Journey Today</h2>
+            <p>Try the Pureglow Starter Kit — our most-loved serum, moisturiser, and SPF, curated for your first 30 days
+              of pure, radiant skin.</p>
+
+            <div class="price-display">
+              <span class="price-original" aria-label="Original price, $79">$79</span>
+              <span class="price-current" aria-label="Sale price, $49">$49</span>
+              <span class="price-badge">Launch Offer</span>
+            </div>
+
+            <button class="btn btn-primary btn-large" id="main-buy-btn" type="button">Get the Starter Kit</button>
+            <p class="shipping-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"
+                style="display:inline;vertical-align:middle;margin-right:4px;">
+                <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" />
+              </svg>
+              In stock. Ships within 24 hours. 30-day money-back guarantee.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#" class="logo footer-logo" aria-label="Pureglow Home">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="12" cy="12" r="4" fill="currentColor" />
+              <path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <span>Pureglow</span>
+          </a>
+          <p>Clean, effective skincare for radiant skin. Formulated with love. Never at the expense of your health or
+            the planet.</p>
+          <div class="footer-certifications" aria-label="Certifications">
+            <span class="cert-badge">🌿 Vegan</span>
+            <span class="cert-badge">🐰 Cruelty-Free</span>
+            <span class="cert-badge">♻️ Eco Packaging</span>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Discover</h4>
+          <a href="#benefits">Benefits</a>
+          <a href="#ingredients">Ingredients</a>
+          <a href="#routine">Our Story</a>
+          <a href="#shop">Shop</a>
+        </div>
+
+        <div class="footer-links">
+          <h4>Support</h4>
+          <a href="#">Skincare Quiz</a>
+          <a href="#">FAQs</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Glow Guarantee</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Pureglow Skincare Ltd. All rights reserved. Made with love &amp; clean ingredients.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    const navbar = document.getElementById('navbar');
+    const navBackdrop = document.getElementById('nav-backdrop');
+
+    // Helper to open/close mobile menu
+    function toggleMobileMenu(open) {
+      const shouldOpen = typeof open === 'boolean' ? open : !navLinks.classList.contains('active');
+      menuToggle.setAttribute('aria-expanded', String(shouldOpen));
+      navLinks.classList.toggle('active', shouldOpen);
+      navBackdrop.classList.toggle('active', shouldOpen);
+      navBackdrop.setAttribute('aria-hidden', String(!shouldOpen));
+      document.body.classList.toggle('nav-open', shouldOpen);
+    }
+
+    // Mobile menu toggle
+    menuToggle.addEventListener('click', () => toggleMobileMenu());
+
+    // Close mobile menu when backdrop is tapped
+    navBackdrop.addEventListener('click', () => toggleMobileMenu(false));
+
+    // Close mobile menu on link click
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => toggleMobileMenu(false));
+    });
+
+    // Sticky nav shadow on scroll
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+  </script>
+
+</body>
+
+</html>
